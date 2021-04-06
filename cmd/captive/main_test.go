@@ -7,6 +7,8 @@ import (
 	"testing"
 )
 
+
+
 //tests with mocked http responses
 func TestMock(t *testing.T) {
 	t.Run("Test with a GOOD mocked response", func(t *testing.T) {
